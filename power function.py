@@ -31,10 +31,13 @@ def power4(base, pow):
         return power3(base * base, pow // 2)
 
 
-result1 = power1(2, 3)
-result2 = power2(2, 3)
-result3 = power3(2, 3)
-result4 = power4(2, 3)
+b = 2
+p = 3
+
+result1 = power1(b, p)
+result2 = power2(b, p)
+result3 = power3(b, p)
+result4 = power4(b, p)
 
 print(f"Result 1 is: {result1}")
 print(f"Result 2 is: {result2}")
